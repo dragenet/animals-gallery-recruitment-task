@@ -1,11 +1,8 @@
 name: Unit Tests
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches: [master]
+  - push
+  - pull_request
 
 jobs:
   tests:
@@ -25,9 +22,13 @@ jobs:
       - name: Setup pnpm and install dependencies
         uses: pnpm/action-setup@v2
         with:
+          version: ^7.30.0
           run_install: |
             - recursive: true
               args: [--frozen-lockfile, --strict-peer-dependencies]
+
+      - name: Run Type Checks
+        run: pnpm test
 
       - name: Run Tests
         run: pnpm test
