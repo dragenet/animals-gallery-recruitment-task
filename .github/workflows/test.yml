@@ -20,12 +20,9 @@ jobs:
           node-version: ${{ matrix.version }}
 
       - name: Setup pnpm and install dependencies
-        uses: pnpm/action-setup@v2
+        uses: ./.github/actions/pnpm-cached-setup
         with:
           version: ^7.30.0
-          run_install: |
-            - recursive: true
-              args: [--frozen-lockfile, --strict-peer-dependencies]
 
       - name: Run Type Checks
         run: pnpm test
