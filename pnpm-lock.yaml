@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/eslint': ^8.21.3
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
   '@types/styled-components': ^5.1.26
@@ -29,6 +30,7 @@ dependencies:
   styled-components: 5.3.9_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
+  '@types/eslint': 8.21.3
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   '@types/styled-components': 5.1.26
@@ -605,6 +607,17 @@ packages:
       '@swc/core-win32-arm64-msvc': 1.3.42
       '@swc/core-win32-ia32-msvc': 1.3.42
       '@swc/core-win32-x64-msvc': 1.3.42
+    dev: true
+
+  /@types/eslint/8.21.3:
+    resolution: {integrity: sha512-fa7GkppZVEByMWGbTtE5MbmXWJTVbrjjaS8K6uQj+XtuuUv1fsuPAxhygfqLmsb/Ufb3CV8deFCpiMfAgi00Sw==}
+    dependencies:
+      '@types/estree': 1.0.0
+      '@types/json-schema': 7.0.11
+    dev: true
+
+  /@types/estree/1.0.0:
+    resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
 
   /@types/hoist-non-react-statics/3.3.1:
