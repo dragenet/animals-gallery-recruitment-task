@@ -1,9 +1,0 @@
-// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
-
-exports[`Test app > snapshots 1`] = `
-<div>
-  <div
-    class="sc-beqWaB fQzpRu"
-  />
-</div>
-`;
