@@ -1,6 +1,7 @@
 import { css, ThemedStyledProps } from 'styled-components';
 
-import { Colors, FontSize } from '../../../theme';
+import { Colors, FontSize } from '~/theme';
+
 import { TypographyProps } from './types';
 
 export const fontSize = (fontSize: FontSize) => css`

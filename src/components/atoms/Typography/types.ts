@@ -1,4 +1,4 @@
-import { Colors, FontSize } from '../../../theme';
+import { Colors, FontSize } from '~/theme';
 
 export interface TypographyProps {
   color?: Colors;
