@@ -1,4 +1,7 @@
+import { RouterProvider } from 'react-router-dom';
 import styled from 'styled-components';
+
+import router from './router';
 
 const Wrapper = styled.div`
   width: 100px;
@@ -7,7 +10,7 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  return <Wrapper />;
+  return <RouterProvider router={router} />;
 }
 
 export default App;
