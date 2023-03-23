@@ -22,6 +22,7 @@ export const typographyMixin =
     const currentProps = { ...options, ...props };
 
     return css`
+      letter-spacing: 0.1em;
       ${currentProps.fontSize && fontSize(currentProps.fontSize)}
       ${currentProps.color && color(currentProps.color)}
   ${currentProps.bold && bold}
