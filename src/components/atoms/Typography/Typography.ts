@@ -10,3 +10,7 @@ export const H1 = styled.h1<TypographyProps>`
 export const Subtitle = styled.p<TypographyProps>`
   ${typographyMixin({ fontSize: 'small', bold: true })}
 `;
+
+export const Body = styled.p<TypographyProps>`
+  ${typographyMixin()}
+`;
