@@ -1,0 +1,34 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button > Primary renders correctly 1`] = `
+.c0 {
+  cursor: pointer;
+  padding: 1em;
+  border-radius: 0.5em;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.c1 {
+  border: none;
+  background-color: #0282c4;
+  color: #FFFFFF;
+}
+
+.c1:hover {
+  border: 1px solid #0282c4;
+  background-color: #FFFFFF;
+  color: #0282c4;
+}
+
+<div>
+  <button
+    class="c0 c1"
+  >
+    Hello there!
+  </button>
+</div>
+`;
