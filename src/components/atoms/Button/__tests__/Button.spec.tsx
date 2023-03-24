@@ -2,7 +2,7 @@ import { screen } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
 
 import { Button } from '~/components/atoms/Button';
-import { renderTest } from '~/utils/renderTest';
+import { renderTest } from '~/utils/test/renderTest';
 
 describe('Button', () => {
   it('Primary renders correctly', () => {
