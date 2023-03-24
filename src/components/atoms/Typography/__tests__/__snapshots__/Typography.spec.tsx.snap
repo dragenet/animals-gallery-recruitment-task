@@ -5,7 +5,7 @@ exports[`Typography > Body renders correctly 1`] = `
   <p
     class="sc-dmqHEX kWFPzJ"
   >
-    Subtitle
+    Body
   </p>
 </div>
 `;

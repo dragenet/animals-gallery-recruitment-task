@@ -18,7 +18,7 @@ describe('Typography', () => {
   });
 
   it('Body renders correctly', () => {
-    const { container } = renderTest(<Body>Subtitle</Body>);
+    const { container } = renderTest(<Body>Body</Body>);
 
     expect(container).toMatchSnapshot();
   });
