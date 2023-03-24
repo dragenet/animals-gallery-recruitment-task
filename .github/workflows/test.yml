@@ -24,7 +24,7 @@ jobs:
           version: ^7.30.0
 
       - name: Run Type Checks
-        run: pnpm test
+        run: pnpm type-checks
 
       - name: Run Tests
         run: pnpm test:coverage
