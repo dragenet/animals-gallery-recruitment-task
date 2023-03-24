@@ -1,10 +1,2 @@
-import { Helmet } from '~/components/molecules/Helmet';
-import { HomePageTemplate } from '~/components/templates/HomePageTemplate';
-
-const HomePage = () => (
-  <>
-    <Helmet />
-    <HomePageTemplate />
-  </>
-);
+const HomePage = () => <h1>Hello world!!!</h1>;
 export default HomePage;

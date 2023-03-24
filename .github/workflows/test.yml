@@ -7,7 +7,7 @@ jobs:
   tests:
     strategy:
       matrix:
-        version: ['lts/*', 'latest' ]
+        version: [ '14.x', '16.x', 'lts/*', 'latest' ]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,7 +24,7 @@ jobs:
           version: ^7.30.0
 
       - name: Run Type Checks
-        run: pnpm type-check
+        run: pnpm test
 
       - name: Run Tests
         run: pnpm test:coverage
