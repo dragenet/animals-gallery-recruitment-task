@@ -4,10 +4,11 @@ export const theme: Theme = {
   colors: {
     white: '#FFFFFF',
     black: '#000',
+    indigo: '#0282c4',
+    mint: '#5ad6a7',
   },
   gradients: {
     backgroundDefault: 'linear-gradient(45deg, rgba(90,214,167,1) 0%, rgba(2,130,196,1) 100%)',
-    // 'linear-gradient(45deg, rgba(93, 246, 188, 1) 0%, rgba(0, 212, 255, 1) 100%) ',
   },
   fonts: ['sans-serif', 'Roboto'],
   fontSizes: {
