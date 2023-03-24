@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { renderTest } from '~/utils/renderTest';
+import { renderTest } from '~/utils/test/renderTest';
 
 import { Body, H1, Subtitle } from '../Typography';
 

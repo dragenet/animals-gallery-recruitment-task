@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import { RootProvider } from '~/components/atoms/RootProvider';
-import { renderTest } from '~/utils/renderTest';
+import { renderTest } from '~/utils/test/renderTest';
 
 describe('RootProvider', () => {
   it('children renders correctly', () => {
