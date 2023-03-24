@@ -1,16 +1,15 @@
 import { RouterProvider } from 'react-router-dom';
-import styled from 'styled-components';
 
-import router from './router';
+import { RootProvider } from '~/components/atoms/RootProvider';
 
-const Wrapper = styled.div`
-  width: 100px;
-  height: 100px;
-  background-color: red;
-`;
+import { browserRouter } from './router';
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <RootProvider>
+      <RouterProvider router={browserRouter} />
+    </RootProvider>
+  );
 }
 
 export default App;
