@@ -1,5 +1,3 @@
-import 'jest-styled-components';
-
 import { describe, expect, it } from 'vitest';
 
 import { Button } from '~/components/atoms/Button';
